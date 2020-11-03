@@ -1,4 +1,5 @@
 {
+  "homepage":"https://maximmajor.github.io/React-Food-Searching-App-/"
   "name": "food-search-app",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,8 @@
     "uuid": "^7.0.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh_pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
